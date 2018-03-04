@@ -14,7 +14,7 @@ public class UserController {
 
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
     public void greeting(@RequestBody SystemUser systemUser) {
-
+        System.out.println("tetsasdasd22");
     }
 
 
